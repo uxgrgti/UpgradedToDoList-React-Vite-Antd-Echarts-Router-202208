@@ -1,0 +1,49 @@
+.item_li {
+  list-style: none;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 8px;
+  border-bottom: 1px solid #ddd;
+}
+.item_li label {
+  float: left;
+  cursor: pointer;
+}
+
+.item_li label li input {
+  vertical-align: middle;
+  margin-right: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.item_li button {
+  float: right;
+  display: none;
+  margin-top: 3px;
+}
+
+.item_li:before {
+  content: initial;
+}
+
+.item_li:last-child {
+  border-bottom: none;
+}
+
+.date {
+  color: rgb(157, 157, 157);
+  float: right;
+}
+.edit_input {
+  display: inline;
+  width: 50%;
+}
+.text_span {
+  flex: 1;
+  width: 30%;
+}
+.isEdit {
+  position: relative;
+  display: flex;
+}

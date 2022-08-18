@@ -1,0 +1,37 @@
+.finisheditem_li {
+  list-style: none;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 5px;
+  border-bottom: 1px solid #ddd;
+}
+.finisheditem_li label {
+  float: left;
+  cursor: pointer;
+}
+
+.finisheditem_li label li input {
+  vertical-align: middle;
+  margin-right: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.finisheditem_li button {
+  float: right;
+  display: none;
+  margin-top: 3px;
+}
+
+.finisheditem_li:before {
+  content: initial;
+}
+
+.finisheditem_li:last-child {
+  border-bottom: none;
+}
+
+.plan_date {
+  color: rgb(157, 157, 157);
+  float: right;
+}
